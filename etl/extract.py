@@ -1,15 +1,8 @@
 from airflow.decorators import task
 from airflow.models import Variable
 import requests
-import json
-from dotenv import load_dotenv
-#import os
 
 WEBSITE_PATH = Variable.get("WEBSITE_PATH")
-
-load_dotenv()
-
-#WEBSITE_PATH = os.getenv("WEBSITE_PATH")
 
 def clean_user_data(data):
     users = data["users"]
@@ -24,6 +17,7 @@ def clean_user_data(data):
             "birthDate": u["birthDate"],
             "city": u["address"]["city"],
             "state": u["address"]["state"],
+            "stateCode": u["address"]["stateCode"],
             "postalCode": u["address"]["postalCode"],
             "country": u["address"]["country"]
         })
