@@ -26,16 +26,6 @@ def clean_user_data(data):
 
 @task
 def get_data(category):
-    """
-    Extracts data from website using API_KEY provided in config.py file
-
-    Args:
-        category (string): sets one of three possible categories of API_KEY 
-                            (products/carts/users)
-
-    Returns:
-        list: data about set category
-    """
     url = f"{WEBSITE_PATH}{category}?limit=0"
     
     try:
