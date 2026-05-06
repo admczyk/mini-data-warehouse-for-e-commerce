@@ -130,8 +130,7 @@ AIRFLOW_WWW_USER_PASSWORD=
 FERNET_KEY=
 SECRET_KEY=
 
-WEBSITE_PATH="https://fakestoreapi.com/"
-CATEGORY='products'
+WEBSITE_PATH="https://dummyjson.com/"
 ```
 `FERNET_KEY` and `SECRET_KEY` should be generated. To do this run `key_generator.py` file.
 
