@@ -6,6 +6,7 @@ CREATE TABLE IF NOT EXISTS users (
     birth_date DATE,
     city TEXT,
     state TEXT,
+    state_code TEXT,
     postal_code TEXT,
     country TEXT,
     age_group TEXT

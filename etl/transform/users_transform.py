@@ -11,6 +11,7 @@ def normalize_users_dtypes(users_df):
     users_df["gender"] = users_df["gender"].astype("string").str.strip()
     users_df["city"] = users_df["city"].astype("string").str.strip()
     users_df["state"] = users_df["state"].astype("string").str.strip()
+    users_df["state_code"] = users_df["state_code"].astype("string").str.strip()
     users_df["postal_code"] = users_df["postal_code"].astype("string").str.strip()
     users_df["country"] = users_df["country"].astype("string").str.strip()
    
@@ -82,6 +83,7 @@ def transform_users_data(data):
         "firstName": "first_name",
         "lastName": "last_name",
         "birthDate": "birth_date",
+        "stateCode": "state_code",
         "postalCode": "postal_code"
     })
 
