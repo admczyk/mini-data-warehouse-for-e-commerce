@@ -11,7 +11,6 @@ def normalize_carts_dtypes(carts_df):
     return carts_df
 
 def clean_and_validate_carts_data(carts_df):
-    # TO DO: Add validating of total and discounted price; cart_total;
     required_cols = carts_df.columns
 
     missing_mask = carts_df[required_cols].isnull().any(axis=1)
@@ -72,7 +71,6 @@ def transform_carts_data(data):
 
     final_carts_df = add_new_cart_values(cleaned_carts_df)
 
-    # returns two dataframes
     return {
         "carts": final_carts_df, 
         "carts_contents": cart_products_df

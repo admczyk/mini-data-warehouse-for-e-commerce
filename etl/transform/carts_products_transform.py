@@ -12,7 +12,6 @@ def normalize_carts_products_dtypes(carts_df):
     return carts_df
 
 def clean_and_validate_carts_products_data(carts_df):
-    # TO DO: Add validating of total and discounted price; cart_total;
     required_cols = carts_df.columns
 
     missing_mask = carts_df[required_cols].isnull().any(axis=1)

@@ -17,16 +17,13 @@ def normalize_product_dtypes(df):
     return df
 
 def clean_and_validate_product_data(df):
-    # A. checking required columns first
     required_cols = ["product_id", "title", "price", "category", "stock"]
 
-    # A1. checking missing values
     missing_mask = df[required_cols].isnull().any(axis=1)
     if missing_mask.any():
         print(f"Deleted {missing_mask.sum()} records with missing reqired values.")
         df = df[~missing_mask]
 
-    # A2. checking if all numeric values are positive
     num_cols = df[required_cols].select_dtypes(include="number")
     neg_mask = (num_cols < 0).any(axis=1)
     if neg_mask.any():
@@ -38,8 +35,6 @@ def clean_and_validate_product_data(df):
         print(f"Removed {invalid_ids.sum()} invalid IDs.")
         df = df[~invalid_ids]
 
-    # B. Checking other columns
-    # B1. Str
     other_cols = [col for col in df.columns if col not in required_cols]
 
     str_cols = df[other_cols].select_dtypes(include=["object"])
@@ -48,7 +43,6 @@ def clean_and_validate_product_data(df):
         print(f"Found {missing_mask.sum()} rows with missing strings. Filled them with \"not set\".")
         df[str_cols.columns] = str_cols.fillna("not set")
 
-    # B2. Numeric
     num_cols = df[other_cols].select_dtypes(include="number")
     missing_mask = num_cols.isnull().mean()
     for col, ratio in missing_mask.items():
@@ -114,19 +108,14 @@ def transform_product_data(data):
     reviews_df = products_df[["product_id", "reviews"]]
     products_df = products_df.drop(columns=["reviews"])
     
-    # normalize data
     products_df = normalize_product_dtypes(products_df)
 
-    # checks missing values
     products_df = clean_and_validate_product_data(products_df)
     
-    # creates new columns useful for analysis
     products_df = add_new_product_values(products_df)
 
-    # return products_df, reviews_df, tags_df
     return {
         "products": products_df,
         "products_reviews": reviews_df,
         "products_tags": tags_df
     }
-

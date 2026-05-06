@@ -3,9 +3,6 @@ import pandas as pd
 import datetime as dt
 
 def normalize_reviews_dtypes(reviews_df):
-    """
-    'review_id', 'product_id', 'rating', 'comment', 'date'
-    """
     reviews_df["review_id"] = pd.to_numeric(reviews_df["review_id"], errors="coerce").astype("Int64")
     reviews_df["product_id"] = pd.to_numeric(reviews_df["product_id"], errors="coerce").astype("Int64")
     reviews_df["rating"] = pd.to_numeric(reviews_df["rating"], errors="coerce")
@@ -50,7 +47,6 @@ def clean_and_validate_reviews_data(reviews_df):
     return reviews_df
 
 def add_new_reviews_values(data):
-    print(data.dtypes)
     data["review_year"] = data["review_date"].dt.year
     data["review_month"] = data["review_date"].dt.month
     data["review_bucket"] = pd.cut(
@@ -62,7 +58,6 @@ def add_new_reviews_values(data):
 
 @task
 def transform_reviews_data(reviews_df):
-    # otpional : figuere out how to assign user_id to every review
     reviews_df = reviews_df.explode("reviews")
     print(reviews_df)
     reviews_df = pd.concat(
