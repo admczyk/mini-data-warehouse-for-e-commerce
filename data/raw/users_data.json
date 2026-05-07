@@ -7,6 +7,7 @@
     "birthDate": "1996-5-30",
     "city": "Phoenix",
     "state": "Mississippi",
+    "stateCode": "MS",
     "postalCode": "29112",
     "country": "United States"
   },
@@ -18,6 +19,7 @@
     "birthDate": "1989-8-10",
     "city": "Houston",
     "state": "Alabama",
+    "stateCode": "AL",
     "postalCode": "38807",
     "country": "United States"
   },
@@ -29,6 +31,7 @@
     "birthDate": "1982-11-6",
     "city": "Washington",
     "state": "Alabama",
+    "stateCode": "AL",
     "postalCode": "32822",
     "country": "United States"
   },
@@ -40,6 +43,7 @@
     "birthDate": "1979-5-4",
     "city": "Seattle",
     "state": "Pennsylvania",
+    "stateCode": "PA",
     "postalCode": "68354",
     "country": "United States"
   },
@@ -51,6 +55,7 @@
     "birthDate": "1994-6-13",
     "city": "Jacksonville",
     "state": "Colorado",
+    "stateCode": "CO",
     "postalCode": "26593",
     "country": "United States"
   },
@@ -62,6 +67,7 @@
     "birthDate": "2002-4-20",
     "city": "Fort Worth",
     "state": "Tennessee",
+    "stateCode": "TN",
     "postalCode": "83843",
     "country": "United States"
   },
@@ -73,6 +79,7 @@
     "birthDate": "1986-10-20",
     "city": "Indianapolis",
     "state": "Delaware",
+    "stateCode": "DE",
     "postalCode": "86684",
     "country": "United States"
   },
@@ -84,6 +91,7 @@
     "birthDate": "1997-8-25",
     "city": "Fort Worth",
     "state": "Rhode Island",
+    "stateCode": "RI",
     "postalCode": "24771",
     "country": "United States"
   },
@@ -95,6 +103,7 @@
     "birthDate": "1991-2-12",
     "city": "San Antonio",
     "state": "Louisiana",
+    "stateCode": "LA",
     "postalCode": "72360",
     "country": "United States"
   },
@@ -106,6 +115,7 @@
     "birthDate": "1993-6-10",
     "city": "New York",
     "state": "Utah",
+    "stateCode": "UT",
     "postalCode": "89352",
     "country": "United States"
   },
@@ -117,6 +127,7 @@
     "birthDate": "1995-6-6",
     "city": "Denver",
     "state": "South Dakota",
+    "stateCode": "SD",
     "postalCode": "57252",
     "country": "United States"
   },
@@ -128,6 +139,7 @@
     "birthDate": "2000-8-4",
     "city": "Jacksonville",
     "state": "West Virginia",
+    "stateCode": "WV",
     "postalCode": "41810",
     "country": "United States"
   },
@@ -139,6 +151,7 @@
     "birthDate": "1984-6-5",
     "city": "New York",
     "state": "North Dakota",
+    "stateCode": "ND",
     "postalCode": "73696",
     "country": "United States"
   },
@@ -150,6 +163,7 @@
     "birthDate": "1988-6-8",
     "city": "Columbus",
     "state": "Ohio",
+    "stateCode": "OH",
     "postalCode": "42044",
     "country": "United States"
   },
@@ -161,6 +175,7 @@
     "birthDate": "1992-3-27",
     "city": "San Jose",
     "state": "Utah",
+    "stateCode": "UT",
     "postalCode": "78243",
     "country": "United States"
   },
@@ -172,6 +187,7 @@
     "birthDate": "1999-3-10",
     "city": "Columbus",
     "state": "Iowa",
+    "stateCode": "IA",
     "postalCode": "30973",
     "country": "United States"
   },
@@ -183,6 +199,7 @@
     "birthDate": "1987-10-13",
     "city": "San Diego",
     "state": "Wyoming",
+    "stateCode": "WY",
     "postalCode": "43423",
     "country": "United States"
   },
@@ -194,6 +211,7 @@
     "birthDate": "1993-10-26",
     "city": "Columbus",
     "state": "Arkansas",
+    "stateCode": "AR",
     "postalCode": "78805",
     "country": "United States"
   },
@@ -205,6 +223,7 @@
     "birthDate": "1996-10-11",
     "city": "Chicago",
     "state": "New Mexico",
+    "stateCode": "NM",
     "postalCode": "11407",
     "country": "United States"
   },
@@ -216,6 +235,7 @@
     "birthDate": "1990-11-30",
     "city": "New York",
     "state": "Arkansas",
+    "stateCode": "AR",
     "postalCode": "26600",
     "country": "United States"
   },
@@ -227,6 +247,7 @@
     "birthDate": "1998-3-7",
     "city": "Philadelphia",
     "state": "New Jersey",
+    "stateCode": "NJ",
     "postalCode": "62091",
     "country": "United States"
   },
@@ -238,6 +259,7 @@
     "birthDate": "1991-10-22",
     "city": "Columbus",
     "state": "Illinois",
+    "stateCode": "IL",
     "postalCode": "31585",
     "country": "United States"
   },
@@ -249,6 +271,7 @@
     "birthDate": "1985-4-21",
     "city": "Dallas",
     "state": "New Jersey",
+    "stateCode": "NJ",
     "postalCode": "54972",
     "country": "United States"
   },
@@ -260,6 +283,7 @@
     "birthDate": "1994-6-2",
     "city": "Columbus",
     "state": "Missouri",
+    "stateCode": "MO",
     "postalCode": "20673",
     "country": "United States"
   },
@@ -271,6 +295,7 @@
     "birthDate": "1997-3-3",
     "city": "Philadelphia",
     "state": "New York",
+    "stateCode": "NY",
     "postalCode": "69521",
     "country": "United States"
   },
@@ -282,6 +307,7 @@
     "birthDate": "1989-2-5",
     "city": "Dallas",
     "state": "Maine",
+    "stateCode": "ME",
     "postalCode": "84898",
     "country": "United States"
   },
@@ -293,6 +319,7 @@
     "birthDate": "1983-12-25",
     "city": "Los Angeles",
     "state": "Nevada",
+    "stateCode": "NV",
     "postalCode": "58781",
     "country": "United States"
   },
@@ -304,6 +331,7 @@
     "birthDate": "1995-12-3",
     "city": "Phoenix",
     "state": "Massachusetts",
+    "stateCode": "MA",
     "postalCode": "41540",
     "country": "United States"
   },
@@ -315,6 +343,7 @@
     "birthDate": "1986-8-19",
     "city": "Indianapolis",
     "state": "Delaware",
+    "stateCode": "DE",
     "postalCode": "81783",
     "country": "United States"
   },
@@ -326,6 +355,7 @@
     "birthDate": "1992-1-3",
     "city": "San Francisco",
     "state": "Montana",
+    "stateCode": "MT",
     "postalCode": "54698",
     "country": "United States"
   },
@@ -337,6 +367,7 @@
     "birthDate": "1988-9-5",
     "city": "Charlotte",
     "state": "Indiana",
+    "stateCode": "IN",
     "postalCode": "21191",
     "country": "United States"
   },
@@ -348,6 +379,7 @@
     "birthDate": "1996-7-23",
     "city": "San Jose",
     "state": "Mississippi",
+    "stateCode": "MS",
     "postalCode": "31121",
     "country": "United States"
   },
@@ -359,6 +391,7 @@
     "birthDate": "1993-4-19",
     "city": "Denver",
     "state": "Oregon",
+    "stateCode": "OR",
     "postalCode": "74622",
     "country": "United States"
   },
@@ -370,6 +403,7 @@
     "birthDate": "1999-11-18",
     "city": "San Francisco",
     "state": "Oregon",
+    "stateCode": "OR",
     "postalCode": "42411",
     "country": "United States"
   },
@@ -381,6 +415,7 @@
     "birthDate": "1995-9-23",
     "city": "Phoenix",
     "state": "Idaho",
+    "stateCode": "ID",
     "postalCode": "42061",
     "country": "United States"
   },
@@ -392,6 +427,7 @@
     "birthDate": "1991-1-14",
     "city": "Dallas",
     "state": "Utah",
+    "stateCode": "UT",
     "postalCode": "63361",
     "country": "United States"
   },
@@ -403,6 +439,7 @@
     "birthDate": "1990-4-20",
     "city": "Seattle",
     "state": "Louisiana",
+    "stateCode": "LA",
     "postalCode": "20540",
     "country": "United States"
   },
@@ -414,6 +451,7 @@
     "birthDate": "1998-3-25",
     "city": "Seattle",
     "state": "Rhode Island",
+    "stateCode": "RI",
     "postalCode": "70664",
     "country": "United States"
   },
@@ -425,6 +463,7 @@
     "birthDate": "1994-4-6",
     "city": "Houston",
     "state": "Wisconsin",
+    "stateCode": "WI",
     "postalCode": "12506",
     "country": "United States"
   },
@@ -436,6 +475,7 @@
     "birthDate": "1997-6-20",
     "city": "Washington",
     "state": "Utah",
+    "stateCode": "UT",
     "postalCode": "85475",
     "country": "United States"
   },
@@ -447,6 +487,7 @@
     "birthDate": "1992-6-16",
     "city": "San Antonio",
     "state": "North Carolina",
+    "stateCode": "NC",
     "postalCode": "19937",
     "country": "United States"
   },
@@ -458,6 +499,7 @@
     "birthDate": "1996-8-21",
     "city": "San Diego",
     "state": "West Virginia",
+    "stateCode": "WV",
     "postalCode": "13916",
     "country": "United States"
   },
@@ -469,6 +511,7 @@
     "birthDate": "1990-11-1",
     "city": "San Diego",
     "state": "Delaware",
+    "stateCode": "DE",
     "postalCode": "48884",
     "country": "United States"
   },
@@ -480,6 +523,7 @@
     "birthDate": "1998-5-9",
     "city": "Phoenix",
     "state": "Vermont",
+    "stateCode": "VT",
     "postalCode": "32823",
     "country": "United States"
   },
@@ -491,6 +535,7 @@
     "birthDate": "1994-1-12",
     "city": "Columbus",
     "state": "Montana",
+    "stateCode": "MT",
     "postalCode": "51083",
     "country": "United States"
   },
@@ -502,6 +547,7 @@
     "birthDate": "1995-2-2",
     "city": "Phoenix",
     "state": "West Virginia",
+    "stateCode": "WV",
     "postalCode": "82463",
     "country": "United States"
   },
@@ -513,6 +559,7 @@
     "birthDate": "1989-6-14",
     "city": "Chicago",
     "state": "Rhode Island",
+    "stateCode": "RI",
     "postalCode": "58331",
     "country": "United States"
   },
@@ -524,6 +571,7 @@
     "birthDate": "1997-6-18",
     "city": "San Diego",
     "state": "Colorado",
+    "stateCode": "CO",
     "postalCode": "64610",
     "country": "United States"
   },
@@ -535,6 +583,7 @@
     "birthDate": "1993-12-21",
     "city": "Columbus",
     "state": "Montana",
+    "stateCode": "MT",
     "postalCode": "61227",
     "country": "United States"
   },
@@ -546,6 +595,7 @@
     "birthDate": "1991-11-6",
     "city": "Jacksonville",
     "state": "New Hampshire",
+    "stateCode": "NH",
     "postalCode": "24463",
     "country": "United States"
   },
@@ -557,6 +607,7 @@
     "birthDate": "1995-9-17",
     "city": "Jacksonville",
     "state": "Idaho",
+    "stateCode": "ID",
     "postalCode": "34271",
     "country": "United States"
   },
@@ -568,6 +619,7 @@
     "birthDate": "1998-12-23",
     "city": "Seattle",
     "state": "Pennsylvania",
+    "stateCode": "PA",
     "postalCode": "61720",
     "country": "United States"
   },
@@ -579,6 +631,7 @@
     "birthDate": "1989-9-11",
     "city": "Los Angeles",
     "state": "Rhode Island",
+    "stateCode": "RI",
     "postalCode": "37169",
     "country": "United States"
   },
@@ -590,6 +643,7 @@
     "birthDate": "1996-4-22",
     "city": "San Antonio",
     "state": "Vermont",
+    "stateCode": "VT",
     "postalCode": "14336",
     "country": "United States"
   },
@@ -601,6 +655,7 @@
     "birthDate": "1993-6-26",
     "city": "Chicago",
     "state": "Nevada",
+    "stateCode": "NV",
     "postalCode": "54304",
     "country": "United States"
   },
@@ -612,6 +667,7 @@
     "birthDate": "1994-6-17",
     "city": "Austin",
     "state": "Alaska",
+    "stateCode": "AK",
     "postalCode": "20118",
     "country": "United States"
   },
@@ -623,6 +679,7 @@
     "birthDate": "1990-11-10",
     "city": "Columbus",
     "state": "Utah",
+    "stateCode": "UT",
     "postalCode": "20882",
     "country": "United States"
   },
@@ -634,6 +691,7 @@
     "birthDate": "1997-3-15",
     "city": "Dallas",
     "state": "Mississippi",
+    "stateCode": "MS",
     "postalCode": "40138",
     "country": "United States"
   },
@@ -645,6 +703,7 @@
     "birthDate": "1991-5-1",
     "city": "Dallas",
     "state": "Arkansas",
+    "stateCode": "AR",
     "postalCode": "87924",
     "country": "United States"
   },
@@ -656,6 +715,7 @@
     "birthDate": "1992-3-9",
     "city": "Phoenix",
     "state": "Minnesota",
+    "stateCode": "MN",
     "postalCode": "47571",
     "country": "United States"
   },
@@ -667,6 +727,7 @@
     "birthDate": "1996-5-9",
     "city": "Phoenix",
     "state": "Idaho",
+    "stateCode": "ID",
     "postalCode": "82481",
     "country": "United States"
   },
@@ -678,6 +739,7 @@
     "birthDate": "1998-8-19",
     "city": "Austin",
     "state": "Wyoming",
+    "stateCode": "WY",
     "postalCode": "42884",
     "country": "United States"
   },
@@ -689,6 +751,7 @@
     "birthDate": "1991-8-5",
     "city": "Chicago",
     "state": "Minnesota",
+    "stateCode": "MN",
     "postalCode": "10672",
     "country": "United States"
   },
@@ -700,6 +763,7 @@
     "birthDate": "1995-2-5",
     "city": "Philadelphia",
     "state": "Connecticut",
+    "stateCode": "CT",
     "postalCode": "61359",
     "country": "United States"
   },
@@ -711,6 +775,7 @@
     "birthDate": "1994-7-28",
     "city": "Los Angeles",
     "state": "South Carolina",
+    "stateCode": "SC",
     "postalCode": "12319",
     "country": "United States"
   },
@@ -722,6 +787,7 @@
     "birthDate": "1997-6-1",
     "city": "San Diego",
     "state": "Wyoming",
+    "stateCode": "WY",
     "postalCode": "59501",
     "country": "United States"
   },
@@ -733,6 +799,7 @@
     "birthDate": "1990-4-8",
     "city": "San Jose",
     "state": "Minnesota",
+    "stateCode": "MN",
     "postalCode": "63269",
     "country": "United States"
   },
@@ -744,6 +811,7 @@
     "birthDate": "1999-10-3",
     "city": "Denver",
     "state": "Arizona",
+    "stateCode": "AZ",
     "postalCode": "56891",
     "country": "United States"
   },
@@ -755,6 +823,7 @@
     "birthDate": "1993-11-16",
     "city": "Denver",
     "state": "Pennsylvania",
+    "stateCode": "PA",
     "postalCode": "63011",
     "country": "United States"
   },
@@ -766,6 +835,7 @@
     "birthDate": "1992-12-24",
     "city": "Jacksonville",
     "state": "Kansas",
+    "stateCode": "KS",
     "postalCode": "39449",
     "country": "United States"
   },
@@ -777,6 +847,7 @@
     "birthDate": "1995-12-7",
     "city": "Jacksonville",
     "state": "Nevada",
+    "stateCode": "NV",
     "postalCode": "56830",
     "country": "United States"
   },
@@ -788,6 +859,7 @@
     "birthDate": "1997-9-16",
     "city": "Austin",
     "state": "Missouri",
+    "stateCode": "MO",
     "postalCode": "39608",
     "country": "United States"
   },
@@ -799,6 +871,7 @@
     "birthDate": "1990-4-19",
     "city": "Chicago",
     "state": "Oklahoma",
+    "stateCode": "OK",
     "postalCode": "46278",
     "country": "United States"
   },
@@ -810,6 +883,7 @@
     "birthDate": "1996-9-14",
     "city": "Charlotte",
     "state": "Pennsylvania",
+    "stateCode": "PA",
     "postalCode": "26857",
     "country": "United States"
   },
@@ -821,6 +895,7 @@
     "birthDate": "1993-10-2",
     "city": "San Antonio",
     "state": "Tennessee",
+    "stateCode": "TN",
     "postalCode": "44329",
     "country": "United States"
   },
@@ -832,6 +907,7 @@
     "birthDate": "1998-12-1",
     "city": "Los Angeles",
     "state": "New Jersey",
+    "stateCode": "NJ",
     "postalCode": "29730",
     "country": "United States"
   },
@@ -843,6 +919,7 @@
     "birthDate": "1991-9-25",
     "city": "San Diego",
     "state": "Ohio",
+    "stateCode": "OH",
     "postalCode": "34379",
     "country": "United States"
   },
@@ -854,6 +931,7 @@
     "birthDate": "1994-10-26",
     "city": "San Antonio",
     "state": "New Hampshire",
+    "stateCode": "NH",
     "postalCode": "64622",
     "country": "United States"
   },
@@ -865,6 +943,7 @@
     "birthDate": "1992-1-6",
     "city": "Austin",
     "state": "North Dakota",
+    "stateCode": "ND",
     "postalCode": "62609",
     "country": "United States"
   },
@@ -876,6 +955,7 @@
     "birthDate": "1997-9-18",
     "city": "New York",
     "state": "Kentucky",
+    "stateCode": "KY",
     "postalCode": "35181",
     "country": "United States"
   },
@@ -887,6 +967,7 @@
     "birthDate": "1995-5-1",
     "city": "Los Angeles",
     "state": "Maryland",
+    "stateCode": "MD",
     "postalCode": "64305",
     "country": "United States"
   },
@@ -898,6 +979,7 @@
     "birthDate": "1998-8-2",
     "city": "Jacksonville",
     "state": "Minnesota",
+    "stateCode": "MN",
     "postalCode": "79154",
     "country": "United States"
   },
@@ -909,6 +991,7 @@
     "birthDate": "1990-11-7",
     "city": "Philadelphia",
     "state": "West Virginia",
+    "stateCode": "WV",
     "postalCode": "54522",
     "country": "United States"
   },
@@ -920,6 +1003,7 @@
     "birthDate": "1996-3-20",
     "city": "Philadelphia",
     "state": "North Dakota",
+    "stateCode": "ND",
     "postalCode": "51438",
     "country": "United States"
   },
@@ -931,6 +1015,7 @@
     "birthDate": "1993-2-28",
     "city": "Denver",
     "state": "South Dakota",
+    "stateCode": "SD",
     "postalCode": "32940",
     "country": "United States"
   },
@@ -942,6 +1027,7 @@
     "birthDate": "1998-9-18",
     "city": "San Jose",
     "state": "Kansas",
+    "stateCode": "KS",
     "postalCode": "51983",
     "country": "United States"
   },
@@ -953,6 +1039,7 @@
     "birthDate": "1991-2-8",
     "city": "Charlotte",
     "state": "Florida",
+    "stateCode": "FL",
     "postalCode": "77521",
     "country": "United States"
   },
@@ -964,6 +1051,7 @@
     "birthDate": "1994-4-1",
     "city": "Phoenix",
     "state": "North Carolina",
+    "stateCode": "NC",
     "postalCode": "72711",
     "country": "United States"
   },
@@ -975,6 +1063,7 @@
     "birthDate": "1992-7-20",
     "city": "Jacksonville",
     "state": "Arkansas",
+    "stateCode": "AR",
     "postalCode": "30822",
     "country": "United States"
   },
@@ -986,6 +1075,7 @@
     "birthDate": "1997-2-26",
     "city": "New York",
     "state": "New Jersey",
+    "stateCode": "NJ",
     "postalCode": "63825",
     "country": "United States"
   },
@@ -997,6 +1087,7 @@
     "birthDate": "1995-5-19",
     "city": "Phoenix",
     "state": "West Virginia",
+    "stateCode": "WV",
     "postalCode": "74747",
     "country": "United States"
   },
@@ -1008,6 +1099,7 @@
     "birthDate": "1998-2-1",
     "city": "Dallas",
     "state": "Illinois",
+    "stateCode": "IL",
     "postalCode": "53203",
     "country": "United States"
   },
@@ -1019,6 +1111,7 @@
     "birthDate": "1990-7-2",
     "city": "Fort Worth",
     "state": "Iowa",
+    "stateCode": "IA",
     "postalCode": "33623",
     "country": "United States"
   },
@@ -1030,6 +1123,7 @@
     "birthDate": "1996-7-7",
     "city": "Dallas",
     "state": "Texas",
+    "stateCode": "TX",
     "postalCode": "85259",
     "country": "United States"
   },
@@ -1041,6 +1135,7 @@
     "birthDate": "1993-3-1",
     "city": "Charlotte",
     "state": "Montana",
+    "stateCode": "MT",
     "postalCode": "29192",
     "country": "United States"
   },
@@ -1052,6 +1147,7 @@
     "birthDate": "1998-6-16",
     "city": "Dallas",
     "state": "Minnesota",
+    "stateCode": "MN",
     "postalCode": "29004",
     "country": "United States"
   },
@@ -1063,6 +1159,7 @@
     "birthDate": "1991-9-7",
     "city": "Charlotte",
     "state": "Vermont",
+    "stateCode": "VT",
     "postalCode": "12263",
     "country": "United States"
   },
@@ -1074,6 +1171,7 @@
     "birthDate": "1994-2-13",
     "city": "Seattle",
     "state": "Montana",
+    "stateCode": "MT",
     "postalCode": "41818",
     "country": "United States"
   },
@@ -1085,6 +1183,7 @@
     "birthDate": "1992-3-17",
     "city": "Houston",
     "state": "Mississippi",
+    "stateCode": "MS",
     "postalCode": "85234",
     "country": "United States"
   },
@@ -1096,6 +1195,7 @@
     "birthDate": "1997-9-1",
     "city": "Chicago",
     "state": "Nevada",
+    "stateCode": "NV",
     "postalCode": "17472",
     "country": "United States"
   },
@@ -1107,6 +1207,7 @@
     "birthDate": "1996-9-8",
     "city": "Houston",
     "state": "Arkansas",
+    "stateCode": "AR",
     "postalCode": "81896",
     "country": "United States"
   },
@@ -1118,6 +1219,7 @@
     "birthDate": "1989-2-20",
     "city": "Fort Worth",
     "state": "New York",
+    "stateCode": "NY",
     "postalCode": "33991",
     "country": "United States"
   },
@@ -1129,6 +1231,7 @@
     "birthDate": "1982-12-5",
     "city": "Houston",
     "state": "Hawaii",
+    "stateCode": "HI",
     "postalCode": "67104",
     "country": "United States"
   },
@@ -1140,6 +1243,7 @@
     "birthDate": "2000-1-6",
     "city": "Phoenix",
     "state": "Maryland",
+    "stateCode": "MD",
     "postalCode": "64002",
     "country": "United States"
   },
@@ -1151,6 +1255,7 @@
     "birthDate": "1993-6-2",
     "city": "New York",
     "state": "Kansas",
+    "stateCode": "KS",
     "postalCode": "85313",
     "country": "United States"
   },
@@ -1162,6 +1267,7 @@
     "birthDate": "1985-6-11",
     "city": "Seattle",
     "state": "New Jersey",
+    "stateCode": "NJ",
     "postalCode": "75448",
     "country": "United States"
   },
@@ -1173,6 +1279,7 @@
     "birthDate": "1995-6-23",
     "city": "Houston",
     "state": "Vermont",
+    "stateCode": "VT",
     "postalCode": "37773",
     "country": "United States"
   },
@@ -1184,6 +1291,7 @@
     "birthDate": "1979-11-29",
     "city": "Washington",
     "state": "Maryland",
+    "stateCode": "MD",
     "postalCode": "54618",
     "country": "United States"
   },
@@ -1195,6 +1303,7 @@
     "birthDate": "1991-5-21",
     "city": "Phoenix",
     "state": "Georgia",
+    "stateCode": "GA",
     "postalCode": "24752",
     "country": "United States"
   },
@@ -1206,6 +1315,7 @@
     "birthDate": "1997-12-21",
     "city": "San Francisco",
     "state": "Virginia",
+    "stateCode": "VA",
     "postalCode": "14050",
     "country": "United States"
   },
@@ -1217,6 +1327,7 @@
     "birthDate": "1988-12-26",
     "city": "Charlotte",
     "state": "Connecticut",
+    "stateCode": "CT",
     "postalCode": "80531",
     "country": "United States"
   },
@@ -1228,6 +1339,7 @@
     "birthDate": "1983-7-4",
     "city": "Dallas",
     "state": "Idaho",
+    "stateCode": "ID",
     "postalCode": "49314",
     "country": "United States"
   },
@@ -1239,6 +1351,7 @@
     "birthDate": "1999-7-10",
     "city": "Denver",
     "state": "Michigan",
+    "stateCode": "MI",
     "postalCode": "43350",
     "country": "United States"
   },
@@ -1250,6 +1363,7 @@
     "birthDate": "1992-1-10",
     "city": "Dallas",
     "state": "Tennessee",
+    "stateCode": "TN",
     "postalCode": "38792",
     "country": "United States"
   },
@@ -1261,6 +1375,7 @@
     "birthDate": "1986-1-18",
     "city": "Fort Worth",
     "state": "Massachusetts",
+    "stateCode": "MA",
     "postalCode": "41530",
     "country": "United States"
   },
@@ -1272,6 +1387,7 @@
     "birthDate": "1998-11-1",
     "city": "Washington",
     "state": "Arkansas",
+    "stateCode": "AR",
     "postalCode": "28272",
     "country": "United States"
   },
@@ -1283,6 +1399,7 @@
     "birthDate": "1981-1-29",
     "city": "New York",
     "state": "New Hampshire",
+    "stateCode": "NH",
     "postalCode": "88314",
     "country": "United States"
   },
@@ -1294,6 +1411,7 @@
     "birthDate": "1994-3-11",
     "city": "Philadelphia",
     "state": "New Hampshire",
+    "stateCode": "NH",
     "postalCode": "47295",
     "country": "United States"
   },
@@ -1305,6 +1423,7 @@
     "birthDate": "1990-9-14",
     "city": "Columbus",
     "state": "New Hampshire",
+    "stateCode": "NH",
     "postalCode": "31018",
     "country": "United States"
   },
@@ -1316,6 +1435,7 @@
     "birthDate": "1987-8-24",
     "city": "Phoenix",
     "state": "Arizona",
+    "stateCode": "AZ",
     "postalCode": "16437",
     "country": "United States"
   },
@@ -1327,6 +1447,7 @@
     "birthDate": "1995-8-26",
     "city": "San Antonio",
     "state": "Florida",
+    "stateCode": "FL",
     "postalCode": "35171",
     "country": "United States"
   },
@@ -1338,6 +1459,7 @@
     "birthDate": "1980-11-24",
     "city": "Jacksonville",
     "state": "Vermont",
+    "stateCode": "VT",
     "postalCode": "34638",
     "country": "United States"
   },
@@ -1349,6 +1471,7 @@
     "birthDate": "2001-6-17",
     "city": "Phoenix",
     "state": "Washington",
+    "stateCode": "WA",
     "postalCode": "60136",
     "country": "United States"
   },
@@ -1360,6 +1483,7 @@
     "birthDate": "1985-6-9",
     "city": "Denver",
     "state": "Alabama",
+    "stateCode": "AL",
     "postalCode": "42655",
     "country": "United States"
   },
@@ -1371,6 +1495,7 @@
     "birthDate": "1979-10-18",
     "city": "Los Angeles",
     "state": "Oregon",
+    "stateCode": "OR",
     "postalCode": "85616",
     "country": "United States"
   },
@@ -1382,6 +1507,7 @@
     "birthDate": "1997-10-13",
     "city": "New York",
     "state": "Arizona",
+    "stateCode": "AZ",
     "postalCode": "18065",
     "country": "United States"
   },
@@ -1393,6 +1519,7 @@
     "birthDate": "1984-5-17",
     "city": "Indianapolis",
     "state": "Tennessee",
+    "stateCode": "TN",
     "postalCode": "44469",
     "country": "United States"
   },
@@ -1404,6 +1531,7 @@
     "birthDate": "1989-2-4",
     "city": "Los Angeles",
     "state": "Nevada",
+    "stateCode": "NV",
     "postalCode": "85922",
     "country": "United States"
   },
@@ -1415,6 +1543,7 @@
     "birthDate": "1998-11-1",
     "city": "Jacksonville",
     "state": "New Mexico",
+    "stateCode": "NM",
     "postalCode": "78335",
     "country": "United States"
   },
@@ -1426,6 +1555,7 @@
     "birthDate": "1983-4-8",
     "city": "San Jose",
     "state": "Arkansas",
+    "stateCode": "AR",
     "postalCode": "83671",
     "country": "United States"
   },
@@ -1437,6 +1567,7 @@
     "birthDate": "1991-9-18",
     "city": "Austin",
     "state": "Arkansas",
+    "stateCode": "AR",
     "postalCode": "23595",
     "country": "United States"
   },
@@ -1448,6 +1579,7 @@
     "birthDate": "1996-5-11",
     "city": "San Jose",
     "state": "Utah",
+    "stateCode": "UT",
     "postalCode": "50908",
     "country": "United States"
   },
@@ -1459,6 +1591,7 @@
     "birthDate": "1987-1-19",
     "city": "Phoenix",
     "state": "South Carolina",
+    "stateCode": "SC",
     "postalCode": "59420",
     "country": "United States"
   },
@@ -1470,6 +1603,7 @@
     "birthDate": "2000-3-30",
     "city": "Charlotte",
     "state": "West Virginia",
+    "stateCode": "WV",
     "postalCode": "77947",
     "country": "United States"
   },
@@ -1481,6 +1615,7 @@
     "birthDate": "1995-1-23",
     "city": "Seattle",
     "state": "North Dakota",
+    "stateCode": "ND",
     "postalCode": "26483",
     "country": "United States"
   },
@@ -1492,6 +1627,7 @@
     "birthDate": "1988-5-15",
     "city": "Indianapolis",
     "state": "Arkansas",
+    "stateCode": "AR",
     "postalCode": "66305",
     "country": "United States"
   },
@@ -1503,6 +1639,7 @@
     "birthDate": "1982-11-22",
     "city": "Philadelphia",
     "state": "New Mexico",
+    "stateCode": "NM",
     "postalCode": "39924",
     "country": "United States"
   },
@@ -1514,6 +1651,7 @@
     "birthDate": "1993-8-22",
     "city": "Chicago",
     "state": "Illinois",
+    "stateCode": "IL",
     "postalCode": "44296",
     "country": "United States"
   },
@@ -1525,6 +1663,7 @@
     "birthDate": "1998-8-25",
     "city": "Los Angeles",
     "state": "Maine",
+    "stateCode": "ME",
     "postalCode": "47017",
     "country": "United States"
   },
@@ -1536,6 +1675,7 @@
     "birthDate": "1989-10-15",
     "city": "Indianapolis",
     "state": "Indiana",
+    "stateCode": "IN",
     "postalCode": "72695",
     "country": "United States"
   },
@@ -1547,6 +1687,7 @@
     "birthDate": "1981-1-2",
     "city": "Charlotte",
     "state": "Mississippi",
+    "stateCode": "MS",
     "postalCode": "78780",
     "country": "United States"
   },
@@ -1558,6 +1699,7 @@
     "birthDate": "1997-7-6",
     "city": "Phoenix",
     "state": "Alabama",
+    "stateCode": "AL",
     "postalCode": "16573",
     "country": "United States"
   },
@@ -1569,6 +1711,7 @@
     "birthDate": "1994-12-15",
     "city": "San Francisco",
     "state": "Illinois",
+    "stateCode": "IL",
     "postalCode": "82802",
     "country": "United States"
   },
@@ -1580,6 +1723,7 @@
     "birthDate": "1986-10-28",
     "city": "Fort Worth",
     "state": "New Hampshire",
+    "stateCode": "NH",
     "postalCode": "49323",
     "country": "United States"
   },
@@ -1591,6 +1735,7 @@
     "birthDate": "1999-4-20",
     "city": "San Antonio",
     "state": "Maryland",
+    "stateCode": "MD",
     "postalCode": "36126",
     "country": "United States"
   },
@@ -1602,6 +1747,7 @@
     "birthDate": "1992-6-2",
     "city": "Indianapolis",
     "state": "Indiana",
+    "stateCode": "IN",
     "postalCode": "66061",
     "country": "United States"
   },
@@ -1613,6 +1759,7 @@
     "birthDate": "1980-6-12",
     "city": "Philadelphia",
     "state": "Ohio",
+    "stateCode": "OH",
     "postalCode": "41914",
     "country": "United States"
   },
@@ -1624,6 +1771,7 @@
     "birthDate": "1995-12-15",
     "city": "New York",
     "state": "Idaho",
+    "stateCode": "ID",
     "postalCode": "19201",
     "country": "United States"
   },
@@ -1635,6 +1783,7 @@
     "birthDate": "1990-5-23",
     "city": "Charlotte",
     "state": "Wisconsin",
+    "stateCode": "WI",
     "postalCode": "26451",
     "country": "United States"
   },
@@ -1646,6 +1795,7 @@
     "birthDate": "1985-3-15",
     "city": "San Diego",
     "state": "Rhode Island",
+    "stateCode": "RI",
     "postalCode": "80524",
     "country": "United States"
   },
@@ -1657,6 +1807,7 @@
     "birthDate": "1996-12-26",
     "city": "Los Angeles",
     "state": "Utah",
+    "stateCode": "UT",
     "postalCode": "73204",
     "country": "United States"
   },
@@ -1668,6 +1819,7 @@
     "birthDate": "1981-5-10",
     "city": "San Diego",
     "state": "Delaware",
+    "stateCode": "DE",
     "postalCode": "49147",
     "country": "United States"
   },
@@ -1679,6 +1831,7 @@
     "birthDate": "1993-7-24",
     "city": "Chicago",
     "state": "Iowa",
+    "stateCode": "IA",
     "postalCode": "35579",
     "country": "United States"
   },
@@ -1690,6 +1843,7 @@
     "birthDate": "1998-6-17",
     "city": "Jacksonville",
     "state": "New York",
+    "stateCode": "NY",
     "postalCode": "65463",
     "country": "United States"
   },
@@ -1701,6 +1855,7 @@
     "birthDate": "1983-1-13",
     "city": "Chicago",
     "state": "North Carolina",
+    "stateCode": "NC",
     "postalCode": "25035",
     "country": "United States"
   },
@@ -1712,6 +1867,7 @@
     "birthDate": "1991-8-18",
     "city": "Seattle",
     "state": "New Mexico",
+    "stateCode": "NM",
     "postalCode": "46438",
     "country": "United States"
   },
@@ -1723,6 +1879,7 @@
     "birthDate": "1997-1-26",
     "city": "Phoenix",
     "state": "Wyoming",
+    "stateCode": "WY",
     "postalCode": "52331",
     "country": "United States"
   },
@@ -1734,6 +1891,7 @@
     "birthDate": "1988-2-19",
     "city": "Philadelphia",
     "state": "Connecticut",
+    "stateCode": "CT",
     "postalCode": "78892",
     "country": "United States"
   },
@@ -1745,6 +1903,7 @@
     "birthDate": "1994-4-24",
     "city": "Columbus",
     "state": "Connecticut",
+    "stateCode": "CT",
     "postalCode": "67863",
     "country": "United States"
   },
@@ -1756,6 +1915,7 @@
     "birthDate": "1995-2-24",
     "city": "San Jose",
     "state": "Massachusetts",
+    "stateCode": "MA",
     "postalCode": "33308",
     "country": "United States"
   },
@@ -1767,6 +1927,7 @@
     "birthDate": "1980-9-5",
     "city": "Seattle",
     "state": "Montana",
+    "stateCode": "MT",
     "postalCode": "32066",
     "country": "United States"
   },
@@ -1778,6 +1939,7 @@
     "birthDate": "1996-8-8",
     "city": "Jacksonville",
     "state": "Connecticut",
+    "stateCode": "CT",
     "postalCode": "61459",
     "country": "United States"
   },
@@ -1789,6 +1951,7 @@
     "birthDate": "2000-8-15",
     "city": "Charlotte",
     "state": "Nebraska",
+    "stateCode": "NE",
     "postalCode": "25690",
     "country": "United States"
   },
@@ -1800,6 +1963,7 @@
     "birthDate": "1995-8-23",
     "city": "San Francisco",
     "state": "South Carolina",
+    "stateCode": "SC",
     "postalCode": "20149",
     "country": "United States"
   },
@@ -1811,6 +1975,7 @@
     "birthDate": "1988-7-29",
     "city": "Fort Worth",
     "state": "Vermont",
+    "stateCode": "VT",
     "postalCode": "16848",
     "country": "United States"
   },
@@ -1822,6 +1987,7 @@
     "birthDate": "1982-4-4",
     "city": "San Jose",
     "state": "New York",
+    "stateCode": "NY",
     "postalCode": "29766",
     "country": "United States"
   },
@@ -1833,6 +1999,7 @@
     "birthDate": "1993-6-24",
     "city": "San Jose",
     "state": "Wisconsin",
+    "stateCode": "WI",
     "postalCode": "20257",
     "country": "United States"
   },
@@ -1844,6 +2011,7 @@
     "birthDate": "1998-10-8",
     "city": "San Diego",
     "state": "Arizona",
+    "stateCode": "AZ",
     "postalCode": "56628",
     "country": "United States"
   },
@@ -1855,6 +2023,7 @@
     "birthDate": "1983-7-16",
     "city": "Indianapolis",
     "state": "Colorado",
+    "stateCode": "CO",
     "postalCode": "56080",
     "country": "United States"
   },
@@ -1866,6 +2035,7 @@
     "birthDate": "1991-1-27",
     "city": "Los Angeles",
     "state": "New Hampshire",
+    "stateCode": "NH",
     "postalCode": "35724",
     "country": "United States"
   },
@@ -1877,6 +2047,7 @@
     "birthDate": "1997-2-2",
     "city": "Indianapolis",
     "state": "Louisiana",
+    "stateCode": "LA",
     "postalCode": "37331",
     "country": "United States"
   },
@@ -1888,6 +2059,7 @@
     "birthDate": "1988-9-26",
     "city": "Chicago",
     "state": "West Virginia",
+    "stateCode": "WV",
     "postalCode": "59220",
     "country": "United States"
   },
@@ -1899,6 +2071,7 @@
     "birthDate": "1994-8-18",
     "city": "Dallas",
     "state": "Vermont",
+    "stateCode": "VT",
     "postalCode": "82460",
     "country": "United States"
   },
@@ -1910,6 +2083,7 @@
     "birthDate": "1995-2-9",
     "city": "Seattle",
     "state": "Wisconsin",
+    "stateCode": "WI",
     "postalCode": "44232",
     "country": "United States"
   },
@@ -1921,6 +2095,7 @@
     "birthDate": "1980-8-18",
     "city": "Charlotte",
     "state": "Mississippi",
+    "stateCode": "MS",
     "postalCode": "14149",
     "country": "United States"
   },
@@ -1932,6 +2107,7 @@
     "birthDate": "1996-2-2",
     "city": "New York",
     "state": "West Virginia",
+    "stateCode": "WV",
     "postalCode": "60165",
     "country": "United States"
   },
@@ -1943,6 +2119,7 @@
     "birthDate": "1987-1-11",
     "city": "Jacksonville",
     "state": "Maryland",
+    "stateCode": "MD",
     "postalCode": "37262",
     "country": "United States"
   },
@@ -1954,6 +2131,7 @@
     "birthDate": "1999-2-16",
     "city": "Austin",
     "state": "Mississippi",
+    "stateCode": "MS",
     "postalCode": "20453",
     "country": "United States"
   },
@@ -1965,6 +2143,7 @@
     "birthDate": "1982-5-21",
     "city": "Columbus",
     "state": "Wisconsin",
+    "stateCode": "WI",
     "postalCode": "59597",
     "country": "United States"
   },
@@ -1976,6 +2155,7 @@
     "birthDate": "1993-11-23",
     "city": "Chicago",
     "state": "Missouri",
+    "stateCode": "MO",
     "postalCode": "60765",
     "country": "United States"
   },
@@ -1987,6 +2167,7 @@
     "birthDate": "1998-1-19",
     "city": "Dallas",
     "state": "Delaware",
+    "stateCode": "DE",
     "postalCode": "62698",
     "country": "United States"
   },
@@ -1998,6 +2179,7 @@
     "birthDate": "1983-11-2",
     "city": "Philadelphia",
     "state": "Idaho",
+    "stateCode": "ID",
     "postalCode": "25365",
     "country": "United States"
   },
@@ -2009,6 +2191,7 @@
     "birthDate": "1991-9-2",
     "city": "San Jose",
     "state": "Georgia",
+    "stateCode": "GA",
     "postalCode": "51464",
     "country": "United States"
   },
@@ -2020,6 +2203,7 @@
     "birthDate": "1996-10-9",
     "city": "Washington",
     "state": "Maryland",
+    "stateCode": "MD",
     "postalCode": "76767",
     "country": "United States"
   },
@@ -2031,6 +2215,7 @@
     "birthDate": "1980-7-14",
     "city": "Dallas",
     "state": "Georgia",
+    "stateCode": "GA",
     "postalCode": "78616",
     "country": "United States"
   },
@@ -2042,6 +2227,7 @@
     "birthDate": "1995-5-5",
     "city": "Los Angeles",
     "state": "Michigan",
+    "stateCode": "MI",
     "postalCode": "33556",
     "country": "United States"
   },
@@ -2053,6 +2239,7 @@
     "birthDate": "1988-12-26",
     "city": "Dallas",
     "state": "Alabama",
+    "stateCode": "AL",
     "postalCode": "60280",
     "country": "United States"
   },
@@ -2064,6 +2251,7 @@
     "birthDate": "1999-11-8",
     "city": "Indianapolis",
     "state": "Tennessee",
+    "stateCode": "TN",
     "postalCode": "71284",
     "country": "United States"
   },
@@ -2075,6 +2263,7 @@
     "birthDate": "1994-12-2",
     "city": "San Diego",
     "state": "Arkansas",
+    "stateCode": "AR",
     "postalCode": "74135",
     "country": "United States"
   },
@@ -2086,6 +2275,7 @@
     "birthDate": "1993-6-22",
     "city": "Denver",
     "state": "Michigan",
+    "stateCode": "MI",
     "postalCode": "70175",
     "country": "United States"
   },
@@ -2097,6 +2287,7 @@
     "birthDate": "1983-4-30",
     "city": "Houston",
     "state": "Florida",
+    "stateCode": "FL",
     "postalCode": "49221",
     "country": "United States"
   },
@@ -2108,6 +2299,7 @@
     "birthDate": "1991-6-11",
     "city": "San Francisco",
     "state": "Vermont",
+    "stateCode": "VT",
     "postalCode": "41010",
     "country": "United States"
   },
@@ -2119,6 +2311,7 @@
     "birthDate": "1996-8-11",
     "city": "Dallas",
     "state": "South Dakota",
+    "stateCode": "SD",
     "postalCode": "49273",
     "country": "United States"
   },
@@ -2130,6 +2323,7 @@
     "birthDate": "1979-4-20",
     "city": "Austin",
     "state": "Massachusetts",
+    "stateCode": "MA",
     "postalCode": "40298",
     "country": "United States"
   },
@@ -2141,6 +2335,7 @@
     "birthDate": "1995-6-14",
     "city": "San Jose",
     "state": "South Carolina",
+    "stateCode": "SC",
     "postalCode": "89729",
     "country": "United States"
   },
@@ -2152,6 +2347,7 @@
     "birthDate": "1990-12-4",
     "city": "San Francisco",
     "state": "Delaware",
+    "stateCode": "DE",
     "postalCode": "33971",
     "country": "United States"
   },
@@ -2163,6 +2359,7 @@
     "birthDate": "1987-1-20",
     "city": "Phoenix",
     "state": "Utah",
+    "stateCode": "UT",
     "postalCode": "18908",
     "country": "United States"
   },
@@ -2174,6 +2371,7 @@
     "birthDate": "1992-1-15",
     "city": "Washington",
     "state": "Alaska",
+    "stateCode": "AK",
     "postalCode": "20650",
     "country": "United States"
   },
@@ -2185,6 +2383,7 @@
     "birthDate": "1998-2-25",
     "city": "Indianapolis",
     "state": "Pennsylvania",
+    "stateCode": "PA",
     "postalCode": "29369",
     "country": "United States"
   },
@@ -2196,6 +2395,7 @@
     "birthDate": "1981-5-1",
     "city": "New York",
     "state": "Delaware",
+    "stateCode": "DE",
     "postalCode": "60163",
     "country": "United States"
   },
@@ -2207,6 +2407,7 @@
     "birthDate": "1995-9-12",
     "city": "Seattle",
     "state": "Florida",
+    "stateCode": "FL",
     "postalCode": "88510",
     "country": "United States"
   },
@@ -2218,6 +2419,7 @@
     "birthDate": "1988-9-25",
     "city": "Philadelphia",
     "state": "North Dakota",
+    "stateCode": "ND",
     "postalCode": "22625",
     "country": "United States"
   },
@@ -2229,6 +2431,7 @@
     "birthDate": "1993-6-16",
     "city": "Los Angeles",
     "state": "Nebraska",
+    "stateCode": "NE",
     "postalCode": "49131",
     "country": "United States"
   },
@@ -2240,6 +2443,7 @@
     "birthDate": "1979-1-26",
     "city": "Jacksonville",
     "state": "Texas",
+    "stateCode": "TX",
     "postalCode": "12771",
     "country": "United States"
   },
@@ -2251,6 +2455,7 @@
     "birthDate": "1996-11-5",
     "city": "Los Angeles",
     "state": "South Carolina",
+    "stateCode": "SC",
     "postalCode": "78498",
     "country": "United States"
   },
@@ -2262,6 +2467,7 @@
     "birthDate": "1990-3-16",
     "city": "San Francisco",
     "state": "Tennessee",
+    "stateCode": "TN",
     "postalCode": "40535",
     "country": "United States"
   },
@@ -2273,6 +2479,7 @@
     "birthDate": "1983-12-18",
     "city": "Seattle",
     "state": "South Dakota",
+    "stateCode": "SD",
     "postalCode": "60977",
     "country": "United States"
   },
@@ -2284,6 +2491,7 @@
     "birthDate": "1997-9-3",
     "city": "Los Angeles",
     "state": "New Hampshire",
+    "stateCode": "NH",
     "postalCode": "53772",
     "country": "United States"
   }
