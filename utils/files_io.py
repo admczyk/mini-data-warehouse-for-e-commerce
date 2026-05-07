@@ -25,4 +25,4 @@ def save_as_csv(data, category):
 
 @task
 def read_csv(category):
-    pd.read_csv(f"./data/transformed/{category}_transformed_data.csv")
+    pd.read_csv(f"/opt/airflow/data/transformed/{category}_transformed_data.csv")
