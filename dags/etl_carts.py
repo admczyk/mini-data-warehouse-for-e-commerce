@@ -38,17 +38,16 @@ with DAG (
     extracted_data = ex.get_data(categories[0])
     save_data_to_json = f.save_to_json(extracted_data, categories[0])
 
-    read_data = f.read_json(categories[0])
-    transformed = ct.transform_carts_data(read_data)
+    transformed = ct.transform_carts_data(extracted_data)
 
     carts = load(transformed, categories[0])
     carts_save_data_to_csv = f.save_as_csv(carts, categories[0])
-    carts_data_loading = ld.load_data(categories[0])
+    carts_data_loading = ld.load_data(carts, "carts")
 
     load_carts_products = load(transformed, categories[1])
     carts_products = cpt.transform_carts_products_data(load_carts_products)
     carts_products_save_data_to_csv = f.save_as_csv(carts_products, categories[1])
-    carts_products_data_loading = ld.load_data(categories[1])
+    carts_products_data_loading = ld.load_data(carts_products, "cart_contents")
 
 
-    extracted_data >> save_data_to_json >> read_data >> transformed >> carts >> carts_save_data_to_csv >> carts_data_loading >> load_carts_products >> carts_products >> carts_products_save_data_to_csv >> carts_products_data_loading
+    extracted_data >> save_data_to_json >> transformed >> carts >> carts_save_data_to_csv >> carts_data_loading >> load_carts_products >> carts_products >> carts_products_save_data_to_csv >> carts_products_data_loading

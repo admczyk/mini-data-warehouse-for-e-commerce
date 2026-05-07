@@ -40,8 +40,7 @@ with DAG (
     p_extracted_data = ex.get_data(p_cat[0])
     p_save_json = f.save_to_json(p_extracted_data, p_cat[0])
 
-    p_read_data = f.read_json(p_cat[0])
-    transformed = pt.transform_product_data(p_read_data)
+    transformed = pt.transform_product_data(p_extracted_data)
     products = load(transformed, p_cat[0])
     reviews = load(transformed, p_cat[1])
     tags = load(transformed, p_cat[2])
@@ -51,21 +50,29 @@ with DAG (
     r_save_csv = f.save_as_csv(r_trans, p_cat[1])
     t_save_csv = f.save_as_csv(t_trans, p_cat[2])
     
-    p_load = ld.load_data(p_cat[0])
-    r_load = ld.load_data(p_cat[1])
-    t_load = ld.load_data(p_cat[2])
+    p_load = ld.load_data(products, p_cat[0])
+    r_load = ld.load_data(r_trans, p_cat[1])
+    t_load = ld.load_data(t_trans, p_cat[2])
 
     u_extracted_data = ex.get_data("users")
     u_save_json = f.save_to_json(u_extracted_data, "users")
 
-    u_read_data = f.read_json("users")
-    users = ut.transform_users_data(u_read_data)
+    users = ut.transform_users_data(u_extracted_data)
     u_save_csv = f.save_as_csv(users, "users")
 
-    u_load = ld.load_data("users")
+    u_load = ld.load_data(users, "users")
 
-    p_extracted_data >> p_save_json >> p_read_data >> transformed >> products >> reviews >> tags >> r_trans >> t_trans >> p_save_csv >> r_save_csv >> t_save_csv >> p_load >> r_load >> t_load
-    u_extracted_data >> u_save_json >> u_read_data >> users >> u_save_csv >> u_load
+    # carts = load(transformed, categories[0])
+    # carts_save_data_to_csv = f.save_as_csv(carts, categories[0])
+    # carts_data_loading = ld.load_data(carts, "carts")
+
+    # load_carts_products = load(transformed, categories[1])
+    # carts_products = cpt.transform_carts_products_data(load_carts_products)
+    # carts_products_save_data_to_csv = f.save_as_csv(carts_products, categories[1])
+    # carts_products_data_loading = ld.load_data(carts_products, "carts_contents")
+
+    p_extracted_data >> p_save_json >> transformed >> products >> reviews >> tags >> r_trans >> t_trans >> p_save_csv >> r_save_csv >> t_save_csv >> p_load >> r_load >> t_load
+    u_extracted_data >> u_save_json >> users >> u_save_csv >> u_load
 
 
 # with DAG (

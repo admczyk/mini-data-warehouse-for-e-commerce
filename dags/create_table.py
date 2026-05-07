@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 @task
 def create_table(category):
     try:
-        hook = PostgresHook(postgres_conn_id="postgres_db_products_etl")
+        hook = PostgresHook(postgres_conn_id="postgres_db_etl")
         conn = hook.get_conn()
         cursor = conn.cursor()
 
