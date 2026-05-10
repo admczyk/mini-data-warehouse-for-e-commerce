@@ -3,7 +3,7 @@
 [![pl](https://img.shields.io/badge/lang-pl-red.svg)](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow/blob/main/README.pl.md)
 
 This project is a complete ETL (Extract, Transform, Load) pipeline that fetches product, carts and users data from the __dummyjson.com__ website, processes it and loads it into a PostgreSQL database.
-The pipeline is orchestrated using Apache Airflow.
+The pipeline is managed by Apache Airflow. The processed data is then stored in a PostgreSQL database and subsequently analyzed and visualized using Power BI.
 
 ## Table of Contents
 * [Project Overview](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#project-overview)
@@ -14,6 +14,9 @@ The pipeline is orchestrated using Apache Airflow.
     - [Database Design](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#database-design)
     - [Airflow DAGs](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#airflow-dags)
 * [Data Analysis and Visualization](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#data-analysis-and-visualization)
+    - [Carts Dashboard](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#carts-dashboard)
+    - [Products Dashboard](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#products-dashboard)
+    - [Users Dashboard](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#users-dashboard)
 * [Setup Instructions](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#setup-instructions)
 
 
@@ -80,8 +83,9 @@ mini_data_warehouse/
 - SQL
 - PostgreSQL
 - Python (ETL scripts)
+- Apache Airflow
+- Power BI
 - Docker
-- Git / Github
 
 ## Data Pipeline Architecture
 ### ETL Pipeline
@@ -114,7 +118,51 @@ The project uses Apache Airflow to orchestrate data workflows through Directed A
 - __etl_products_users.py__ - this is one of the main DAGs that implements the end-to-end ETL pipeline for products and users data. It is activated once every day.
 
 ## Data Analysis and Visualization
-There will be more soon...
+In this section an interactive analytics solution built in Power BI is shown. It is designed to explore customer behavior, product performance and shopping cart dynamics in an e-commerce environment.
+The dashboard is divided into three main analytical views: **Carts Analysis**, **Products Analysis** and **Users Analysis**.
+> **Important Note:**
+> Due to the lack of time-related data in the extracted dataset, time-based analysis of the e-commerce business could not be performed.
+
+### Carts Dashboard
+[Carts Dashboard](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow/blob/main/img/Carts_Dashboard_IMG.png)
+The Carts view focuses on understanding purchasing behavior at the basket level, providing insights into cart composition, value distribution and overall sales performance.
+#### Key metrics:
+- **Total Sales** - overall revenue generated from all carts
+- **Average Cart Value**
+- **Average Items per Cart**
+- **Total Discount Impact** - comparison between gross and discounted sales
+#### Key analyses:
+- **Cart Value vs Quantity Scatter Plot** - shows relationship between number of items in a cart and its total value, highlighting high-value outliers
+- **Cart Size Distribution** - segmentation of carts into size buckets (very small, small, medium, large, extreme)
+- **Cart Value Distribution** - analysis of revenue concentration across value segments
+- **Top 10 Carts by Sales** - identification of highest-value transactions
+
+### Products Dashboard
+[Products Dashboard](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow/blob/main/img/Products_Dashboard_IMG.png)
+The Products view focuses on product performance, customer ratings and profitability across categories and subcategories.
+#### Key metrics:
+- **Total Units Sold**
+- **Unique Products**
+- **Average Rating**
+- **Average Cart Value**
+#### Key analyses:
+- **Rating vs Sales Scatter Plot** - evaluates whether product ratings correlate with sales performance
+- **Top 10 Products by Sales** - best-performing products in terms of revenue
+- **Profit by Subcategory** - profitability breakdown across product categories
+
+### Users Dashboard
+[Users Dashboard](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow/blob/main/img/Users_Dashboard_IMG.png)
+The Users view focuses on customer count,behavior, age group breakdown and gender distribution.
+#### Key metrics:
+- **Total Users**
+- **Average Revenue per User**
+- **Average Orders per User**
+- **Active Users**
+#### Key analyses:
+- **Sales by State Map** - geographical distribution across U.S. states
+- **Users by Age Group Chart** - age group breakdown across users
+- **Users by Gender** -gender breakdown across users
+- **Top 10 Customers** - best-performing customers in terms of total sales
 
 ## Setup Instructions
 #### 1. Clone the Repository
