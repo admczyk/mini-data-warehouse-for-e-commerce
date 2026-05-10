@@ -5,18 +5,18 @@
 Projekt ten jest kompeltnym pipeline ETL (Extract, Transform, Load), który pobiera dane o produktach, koszykach i użytkownikach ze strony **dummyjson.com**, przetwarza je i ładuje do bazy danych PostgreSQL. Pipeline jest zarządzany przez Apache Airflow. Przetworzone dane są następnie przechowywane w bazie danych PostgreSQL, a następnie analizowane i wizualizowane za pomocą Power BI.
 
 ## Spis Treści
-* [Przegląd Projektu](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#przegląd-projektu)
-* [Struktura Projektu](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#struktura-projektu)
-* [Wykorzystane Technologie](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#wykorzystane-technologie)
-* [Architektura Przepływu Danych](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#architektura-przepływu-danych)
-    - [Pipeline ETL](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#pipeline-etl)
-    - [Projekt Bazy Danych](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#projekt-bazy-danych)
-    - [DAGi Airflow](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#dagi-airflow)
-* [Analiza Danych i Wizualizacja](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#analiza-danych-i-wizualizacja)
-    - [Dashboard Koszyków](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#dashboard-koszyków)
-    - [Dashboard Produktów](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#dashboard-produktów)
-    - [Dashboard Użytkowników](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#dashboard-użytkowników)
-* [Instrukcja Uruchomienia](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#instrukcja-uruchomienia)
+* [Przegląd Projektu](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow/blob/main/README.pl.md#przegląd-projektu)
+* [Struktura Projektu](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow/blob/main/README.pl.md#struktura-projektu)
+* [Wykorzystane Technologie](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow/blob/main/README.pl.md#wykorzystane-technologie)
+* [Architektura Przepływu Danych](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow/blob/main/README.pl.md#architektura-przepływu-danych)
+    - [Pipeline ETL](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow/blob/main/README.pl.md#pipeline-etl)
+    - [Projekt Bazy Danych](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow/blob/main/README.pl.md#projekt-bazy-danych)
+    - [DAGi Airflow](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow/blob/main/README.pl.md#dagi-airflow)
+* [Analiza Danych i Wizualizacja](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow/blob/main/README.pl.md#analiza-danych-i-wizualizacja)
+    - [Dashboard Koszyków](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow/blob/main/README.pl.md#dashboard-koszyków)
+    - [Dashboard Produktów](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow/blob/main/README.pl.md#dashboard-produktów)
+    - [Dashboard Użytkowników](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow/blob/main/README.pl.md#dashboard-użytkowników)
+* [Instrukcja Uruchomienia](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow/blob/main/README.pl.md#instrukcja-uruchomienia)
 
 ## Przegląd Projektu
 Projekt implementuje mini hurtownię danych dla danych e-commerce z wykorzystaniem Apache Airflow.
