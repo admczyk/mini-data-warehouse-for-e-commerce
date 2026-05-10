@@ -2,9 +2,23 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow/blob/main/README.md)
 [![pl](https://img.shields.io/badge/lang-pl-green.svg)](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow/blob/main/README.pl.md)
 
-Projekt ten jest kompeltnym pipeline ETL (Extract, Transform, Load), który pobiera dane o produktach, koszykach i użytkownikach ze strony **dummyjson.com**, przetwarza je i ładuje do bazy danych PostgreSQL. Pipeline jest zaaranożowany przy użyciu Apache Airflow.
+Projekt ten jest kompeltnym pipeline ETL (Extract, Transform, Load), który pobiera dane o produktach, koszykach i użytkownikach ze strony **dummyjson.com**, przetwarza je i ładuje do bazy danych PostgreSQL. Pipeline jest zarządzany przez Apache Airflow. Przetworzone dane są następnie przechowywane w bazie danych PostgreSQL, a następnie analizowane i wizualizowane za pomocą Power BI.
 
-## Przegląd projektu
+## Spis Treści
+* [Przegląd Projektu](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#przegląd-projektu)
+* [Struktura Projektu](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#struktura-projektu)
+* [Wykorzystane Technologie](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#wykorzystane-technologie)
+* [Architektura Przepływu Danych](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#architektura-przepływu-danych)
+    - [Pipeline ETL](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#pipeline-etl)
+    - [Projekt Bazy Danych](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#projekt-bazy-danych)
+    - [DAGi Airflow](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#dagi-airflow)
+* [Analiza Danych i Wizualizacja](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#analiza-danych-i-wizualizacja)
+    - [Dashboard Koszyków](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#dashboard-koszyków)
+    - [Dashboard Produktów](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#dashboard-produktów)
+    - [Dashboard Użytkowników](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#dashboard-użytkowników)
+* [Instrukcja Uruchomienia](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#instrukcja-uruchomienia)
+
+## Przegląd Projektu
 Projekt implementuje mini hurtownię danych dla danych e-commerce z wykorzystaniem Apache Airflow.
 
 Pipeline pobiera dane produktowe z publicznego API, przekształca je do formatu analitycznego i ładuje do bazy danych PostgreSQL.
@@ -29,7 +43,7 @@ Głównym celem projektu jest symulacja rzeczywistego workflow data engineeringo
 
 Dodatkowym celem jest analiza pozyskanych danych w celu wydobycia istotnych wniosków oraz wsparcia podejmowania decyzji opartych na danych.
 
-## Struktura projektu
+## Struktura Projektu
 ```
 mini_data_warehouse/
 |
@@ -62,20 +76,15 @@ mini_data_warehouse/
 └── README.md                           # Dokumentacja projektu
 ```
 
-## Wykorzystane technologie
+## Wykorzystane Technologie
 - SQL
 - PostgreSQL
 - Python (ETL scripts)
+- Apache Airflow
+- Power BI
 - Docker
-- Git / Github
 
-## Architektura pipeline’u danych
-### DAGi Airflow
-Projekt wykorzystuje Apache Airflow do zaaranżowania workflow danych za pomocą DAGów (Directed Acyclic Graphs). Każdy DAG definiuje sekwencję zadań oraz ich zależności, umożliwiając automatyczne i powtarzalne przetwarzanie danych.
-- __create_table.py__ – odpowiada za inicjalizację schematu bazy danych
-- __etl_carts.py__ – główny DAG realizujący pipeline ETL dla koszyków (uruchamiany co godzinę)
-- __etl_products_users.py__ – główny DAG realizujący pipeline ETL dla produktów i użytkowników (uruchamiany raz dziennie)
-
+## Architektura Przepływu Danych
 ### Pipeline ETL
 Proces ETL składa się z:
 
@@ -96,6 +105,63 @@ Proces ETL składa się z:
 - Dane są odczytywane z CSV przy użyciu Pandas
 - Połączenie realizowane przez Airflow PostgresHook
 - Dane są wstawiane do tabeli w PostgreSQL
+
+### Projekt Bazy Danych
+Ta część projektu jest nadal w trakcie budowy...  Wróć tutaj później :]
+
+### DAGi Airflow
+Projekt wykorzystuje Apache Airflow do zaaranżowania workflow danych za pomocą DAGów (Directed Acyclic Graphs). Każdy DAG definiuje sekwencję zadań oraz ich zależności, umożliwiając automatyczne i powtarzalne przetwarzanie danych.
+- __create_table.py__ – odpowiada za inicjalizację schematu bazy danych
+- __etl_carts.py__ – główny DAG realizujący pipeline ETL dla koszyków (uruchamiany co godzinę)
+- __etl_products_users.py__ – główny DAG realizujący pipeline ETL dla produktów i użytkowników (uruchamiany raz dziennie)
+
+## Analiza Danych i Wizualizacja
+W tej sekcji przedstawiono interaktywne rozwiązanie analityczne zbudowane w Power BI. Zostało ono zaprojektowane w celu analizy zachowań klientów, wyników produktów oraz dynamiki koszyków zakupowych w środowisku e-commerce.
+Dashboard został podzielony na trzy główne widoki analityczne: **Analiza Koszyków**, **Analiza Produktów** oraz **Analiza Użytkowników**.
+> **Ważna informacja:**
+> Ze względu na brak danych czasowych w wyodrębnionym zbiorze dancyh, analiza trendów w czasie nie została wykonana.
+
+### Dashboard Koszyków
+![Dashboard Koszyków](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow/blob/main/img/Carts_Dashboard_IMG.png)
+Widok koszyków koncentruje się na analizie zachowań zakupowych na poziomie koszyka, dostarczając informacji o jego strukturze, rozkładzie wartości oraz ogólnej wydajności sprzedaży.
+#### Kluczowe metryki:
+- **Całkowita Sprzedaż** - łączny przychód wygenerowany ze wszystkich koszyków
+- **Średnia Wartość Koszyka**
+- **Średnia Liczba Produktów w Koszyku**
+- **Łączny Wpływ Rabatów** - porównanie sprzedaży brutto i netto
+#### Kluczowe analizy:
+- **Wykres Punktowy Wartość Koszyka vs Liczba produktów** - pokazuje zależność między liczbą produktów w koszyku a jego wartością, wskazując wartości odstające
+- **Rozkład Wielkości Koszyków** - segmentacja koszyków według wielkości
+- **Rozkład Wartości Koszyków** - analiza koncentracji przychodów w różnych przedziałach wartości
+- **Top 10 Koszyków według Sprzedaży** - identyfikacja transakcji o najwyższej wartości
+
+### Dashboard Produktów
+![Dashboard Produktów](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow/blob/main/img/Products_Dashboard_IMG.png)
+Widok produktów koncentruje się na analizie wydajności produktów, ocen klientów oraz rentowności w podziale na kategorie i podkategorie.
+#### Kluczowe metryki:
+- **Łączna Liczba Sprzedanych Jednostek**
+- **Liczba Unikalnych Produktów**
+- **Średnia Ocena**
+- **Średnia Wartość Koszyka**
+#### Kluczowe analizy:
+- **Wykres Punktowy Ocena vs Sprzedaż** - ocena zależności między ocenami produktów a ich sprzedażą
+- **Top 10 Produktów według Sprzedaży** - najlepiej sprzedające się produkty pod względem przychodu
+- **Zysk według Podkategorii** - analiza rentowności w podziale na kategorie produktów
+
+### Dashboard Użytkowników
+![Dashboard Użytkowników](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow/blob/main/img/Users_Dashboard_IMG.png)
+Widok użytkowników koncentruje się na liczbie klientów, ich zachowaniach, strukturze wiekowej oraz rozkładzie płci.
+#### Kluczowe metryki:
+- **Łączna Liczba Użytkowników**
+- **Średni Przychód na Użytkownika**
+- **Średnia Liczba Zamówień na Użytkownika**
+- **Aktywni Użytkownicy**
+#### Kluczowe analizy:
+- **Mapa Sprzedaży według Stanów** - geograficzny rozkład użytkowników w poszczególnych stanach USA
+- **Rozkład Grup Wiekowych** - podział użytkowników na grupy wiekowe
+- **Rozkład Grup Płci** - analiza struktury użytkowników ze względu na płeć
+- **Top 10 Klientów** - najlepsi klienci pod względem łącznej sprzedaży
+
 
 ## Instrukcja uruchomienia
 #### 1. Sklonuj repozytorium
