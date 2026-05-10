@@ -5,6 +5,18 @@
 This project is a complete ETL (Extract, Transform, Load) pipeline that fetches product, carts and users data from the __dummyjson.com__ website, processes it and loads it into a PostgreSQL database.
 The pipeline is orchestrated using Apache Airflow.
 
+## Table of Contents
+* [Project Overview](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#project-overview)
+* [Project Structure](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#project-structure)
+* [Technologies Used](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#technologies-used)
+* [Data Pipeline Architecture](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#data-pipeline-architecture)
+    - [ETL Pipeline](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#etl-pipeline)
+    - [Database Design](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#database-design)
+    - [Airflow DAGs](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#airflow-dags)
+* [Data Analysis and Visualization](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#data-analysis-and-visualization)
+* [Setup Instructions](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow#setup-instructions)
+
+
 ## Project Overview
 This project implements a mini data warehouse for e-commerce data using Apache Airflow.
 
@@ -71,13 +83,7 @@ mini_data_warehouse/
 - Docker
 - Git / Github
 
-## Data pipeline architecture
-### Airflow DAGs
-The project uses Apache Airflow to orchestrate data workflows through Directed Acyclic Graphs (DAGs). Each DAG defines a sequence of tasks and their dependencies, enabling automated and repeatable data processing.
-- __create_table.py__ - this DAG is responsible for initializing the database schema
-- __etl_carts.py__ - this is one of the main DAGs that implements the end-to-end ETL pipeline for carts data. It is activated every hour.
-- __etl_products_users.py__ - this is one of the main DAGs that implements the end-to-end ETL pipeline for products and users data. It is activated once every day.
-
+## Data Pipeline Architecture
 ### ETL Pipeline
 The ETL process consists of:
 #### 1. Extract
@@ -97,6 +103,18 @@ The ETL process consists of:
 - Data is read from CSV using Pandas
 - Connection is managed via Airflow PostgresHook
 - Records are inserted row-by-row into the products table
+
+### Database Design
+This subcategory is still under construction...
+
+### Airflow DAGs
+The project uses Apache Airflow to orchestrate data workflows through Directed Acyclic Graphs (DAGs). Each DAG defines a sequence of tasks and their dependencies, enabling automated and repeatable data processing.
+- __create_table.py__ - this DAG is responsible for initializing the database schema
+- __etl_carts.py__ - this is one of the main DAGs that implements the end-to-end ETL pipeline for carts data. It is activated every hour.
+- __etl_products_users.py__ - this is one of the main DAGs that implements the end-to-end ETL pipeline for products and users data. It is activated once every day.
+
+## Data Analysis and Visualization
+There will be more soon...
 
 ## Setup Instructions
 #### 1. Clone the Repository
