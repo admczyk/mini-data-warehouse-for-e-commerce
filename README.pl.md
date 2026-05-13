@@ -250,5 +250,4 @@ docker compose down -v
 ```
 ## Możliwe usprawnienia do późniejszej implementacji
 - Dodanie logowania dla lepszego monitoroeania i debugowania
-- Integracja z narzędziami BI (Power BI / Tableau)
 - Wdrożenie pipeline'u do chmury
