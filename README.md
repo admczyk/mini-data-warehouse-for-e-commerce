@@ -1,4 +1,4 @@
-# Mini Data Warehouse For E-commerce with Apache Airflow
+# End-to-End Data Pipeline for E-commerce Analytics (Airflow, PostgreSQL, Power BI)
 [![en](https://img.shields.io/badge/lang-en-green.svg)](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow/blob/main/README.md)
 [![pl](https://img.shields.io/badge/lang-pl-red.svg)](https://github.com/admczyk/Mini-Data-Warehouse-for-E-commerce-With-Apache-Airflow/blob/main/README.pl.md)
 
